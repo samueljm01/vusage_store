@@ -35,12 +35,19 @@ const Home: React.FC = () => {
 						</p>
 					</div>
 				</a>
-				<div className="flex items-center justify-center bg-white mb-6 shadow-lg p-2 rounded-lg pb-2.5 cursor-pointer">
-					<ShoppingBagIcon className="h-4 w-4 mr-2 mt-1" stroke="black" />
-					<p className="text-center mt-1 text-sm leading-6 text-gray-600">
-						Faça seu pedido
-					</p>
-				</div>
+				<a
+					href="https://www.instagram.com/vusageoficial?igsh=MTdxN2x1cXo5czkxdg=="
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<div className="flex items-center justify-center bg-white mb-6 shadow-lg p-2 rounded-lg pb-2.5 cursor-pointer">
+						<ShoppingBagIcon className="h-4 w-4 mr-2 mt-1" stroke="black" />
+						<p className="text-center mt-1 text-sm leading-6 text-gray-600">
+							Faça seu pedido
+						</p>
+					</div>
+				</a>
+
 				<div className="flex items-center justify-center bg-white mb-6 shadow-lg p-2 rounded-lg pb-2.5 cursor-pointer">
 					<UserIcon className="h-4 w-4 mr-2 mt-1" stroke="black" />
 					<p className="text-center mt-1 text-sm leading-6 text-gray-600">
